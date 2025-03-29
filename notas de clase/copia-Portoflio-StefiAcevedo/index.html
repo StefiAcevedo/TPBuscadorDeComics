@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> <!-- datos de la web -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="¡Hola! Soy Stefi 👋🏽, diseñadora UI/UX y front-end">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <meta name="keywords" content="portfolio, UX, UI, diseño web, front-end">
+    <link rel="icon" href="img/favicon.png" type="image/logo favicon">
+    <link rel="stylesheet" href="styles.css"> <!-- vincula css -->
+    <title>Portfolio Stefi Acevedo</title>
+</head>
+<body> <!-- mesa de trabajo -->
+    <header><!-- header -->
+        <nav>
+            <a href="index.html"><img src="img/logo nav.svg" alt="logo"></a>
+            <ul>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="procesodediseño">Proceso de diseño</a></li>
+                <li><a href="proyectos" class="neutral-negro">Proyectos</a></li>
+                <li><a href="sobremí" class="neutral-negro">Sobre mí</a></li>
+                <li><a href="contacto" class="neutral-negro">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="hero"><!-- slider de inicio -->
+            <div class="textos-hero">
+                <h3>¡Hola! Soy Stefi 👋🏽</h3>
+                <h1>una apasionada Diseñadora UI/UX,<br>y Front-end de Córdoba, Argentina 🇦🇷</h1>
+            </div>
+            <button class="boton-hero">Contacto</a></button>
+    </main>
+    <section class="proceso-de-diseño"><!-- sección proceso de diseño -->
+        <div><!-- bloque de textos -->
+            <div class="titulos-proceso-de-diseño">
+                <h2 class="texto-neutral-negro">Proceso</h2>
+                <h2 class="texto-destacado-fucsia">de diseño</h2>
+            </div>
+            <div class="parrafo-general-texto-negro">
+                <p><h4>Cada proyecto posee su propia singularidad, pero siempre me comprometo con un proceso fundamental en mi metodología de trabajo.</h4></p>
+                <p><h4>Sin embargo, este proceso rara vez sigue una línea recta, ya que los pasos son revisados minuciosamente en múltiples ocasiones antes de llegar a la entrega final.</h4></p>
+            </div>
+        </div>
+        <img src="img/proceso-de-diseño-grafico.svg" alt="grafico donde se muestran las diferentes etapas del proceso de trabajo">
+    </section>
+    <section class="mis-proyectos"> <!-- mis-proyectos -->
+        <div> <!-- bloque de textos -->
+            <div>
+                <h2 class="titulos-destacado-amarillo">Mis proyectos</h2>
+            </div>
+            <div class="parrafo-general-texto-blanco">
+                <p><h4>A lo largo de mi trayectoria como diseñadora, he tenido el privilegio de colaborar en diversos proyectos con clientes ubicados en distintas partes del mundo.</h4></p>
+                <p><h4>AMi enfoque principal radica en garantizar que cada diseño sea atractivo visualmente, intuitivo y funcional, siempre alineado con los objetivos del producto.</h4></p>
+            </div>
+        </div>
+        <img src="img/imagen-mis-proyectos.png" alt="algunos ejemplos de mi potfolio">
+    </section>
+    <section> <!-- card de mis-proyectos PENDIENTES -->
+        <div></div> <!-- card delBent-->
+        <div></div> <!-- card Adventure -->
+        <div></div> <!-- card Raft -->
+    </section>
+    <section class="sobre-mi"><!-- sección sobre mi -->
+        <div><!-- bloque de textos -->
+            <div class="titulos-proceso-de-diseño">
+                <h2 class="titulos-destacado-amarillo">Sobre mí</h2>
+            </div>
+            <div class="parrafo-general-texto-blanco"><!-- cambiar textos -->
+                <p><h4>Cada proyecto posee su propia singularidad, pero siempre me comprometo con un proceso fundamental en mi metodología de trabajo.</h4></p>
+                <p><h4>Sin embargo, este proceso rara vez sigue una línea recta, ya que los pasos son revisados minuciosamente en múltiples ocasiones antes de llegar a la entrega final.</h4></p>
+            </div>
+        </div>
+        <img src="img/imagen-sobre-mi.png" alt="bocetos de diferentes proyectos">
+    </section>
+    <section class="formulario"> <!-- formulario -->
+        <div><!-- bloque de textos -->
+            <div class="textos-formulario">
+                <h2 class="titulos-destacado-blanco">¡Hablemos</h2>
+                <h2 class="titulos-destacado-amarillo">de tu proyecto!</h2>
+            </div>
+            <div class="parrafo-general-texto-blanco">
+                <p><h4>Si tienes un proyecto en mente o necesitas asistencia en diseño y desarrollo, no dudes en escribirme.</h4></p>
+                <p><h4>¡Armemos experiencias digitales juntos!</p></h4>
+            </div>
+            <div class="redes-formulario"> <!-- redes de contacto -->
+                <a href="https://www.linkedin.com/in/stefania-acevedo/" title="linkedln">
+                    <img src="img/logo-linkedin.svg" alt="logo linkedln">
+                </a>
+                <a href="https://www.behance.net/TefiAcevedo" title="Behance">
+                    <img src="img/logo-behance.png" alt="logo Behance">
+                </a>
+                <a href="https://www.instagram.com/tefi.acevedo_/" title="Instagram">
+                    <img src="img/logo-instagram.svg" alt="logo Instagram">
+                </a>
+            </div>
+        </div>
+        <div class="formularios"><!-- inputs formulario -->
+            <div>
+                <h2 class="titulos-destacado-blanco">Estamos en contacto</h2>
+            </div>
+            <form action=".exito/html">
+                <div>
+                    <div class="input-nombre-apellido">
+                        <div> <!-- nombre -->
+                            <label for="nombre" class="label">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" class="input">
+                        </div>
+                        <div> <!-- apellido -->
+                            <label for="apellido" class="label">Apellido:</label>
+                            <input type="text" id="apellido" name="nombre" class="input">
+                        </div>
+                    </div>
+                    <div> <!-- Email -->
+                        <label for="Email" class="label">Email:</label>
+                        <input type="text" id="Email" name="email" class="input">
+                    </div>
+                    <div class="input-mensaje"> <!-- mensaje -->
+                        <label for="Email" class="label">Mensaje:</label>
+                        <input type="text" id="Mensaje" name="mensaje" class="input">
+                    </div>
+                    <input type="submit" value="Enviar mensaje" class="boton-submit">
+                </div>
+            </form>
+        </div>
+        
+    </section>
+
+
+    <footer class="footer"><!-- contenido footer -->
+        <div> <!-- redes de contacto -->
+            <h2 class="neutral-blanco">Gracias por visitar mi portfolio 💜</h2>
+            <a href="https://www.linkedin.com/in/stefania-acevedo/" title="linkedln">
+                <img src="img/linkedin.svg" alt="logo linkedln">
+            </a>
+            <a href="https://www.behance.net/TefiAcevedo" title="Behance">
+                <img src="img/behance.png" alt="logo Behance">
+            </a>
+            <a href="https://www.instagram.com/tefi.acevedo_/" title="Instagram">
+                <img src="img/instagram.svg" alt="logo Instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

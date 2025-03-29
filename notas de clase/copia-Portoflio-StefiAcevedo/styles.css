@@ -1,0 +1,262 @@
+body{
+    font-family: Plus Jakarta Sans;
+    margin: 0;
+    background-color:#F8F8F8;
+}
+/* colores */
+.neutral-negro{
+    color: #212121;
+}
+.neutral-blanco{ 
+    color: #FFFFFF;
+}
+.neutral-gris{
+    color: #BFBFBF;
+}
+.neutral-gris-dark{
+    color: #696969;
+}
+.principal-fucsia{
+    color: #ED325F;
+}
+.principal-violeta {
+    color: #25086C;
+}
+.principal-verde {
+    color: #32AA9D;
+}
+.secundario-fucsia{
+    color: #FF557A;
+ }
+ .secundario-violeta{
+    color: #7A77D8;
+ }
+.ui-azul-raft{
+    color: #3089F3;
+}
+.ui-amarillo{
+    color: #FFF27F;
+}
+/* elementos nav */
+nav{ 
+    color: #212121;
+    background-color: #FFFFFF;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul { /* esto lo fui solucionando armando dif clases, no se si esta ok*/
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    margin: 24px;
+    padding: 0;
+}
+nav a{
+    color: #212121;
+    text-decoration: none;
+}
+nav a:hover{ 
+    color: #ED325F;
+    text-decoration: none;
+}
+/* estilos de texto */
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #212121;
+    text-align: left;
+    margin: 0;
+}
+h3 {
+    font-size: 32px;
+    font-weight: 200;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+}
+.texto-neutral-negro {
+    color: #212121;
+}
+.texto-destacado-fucsia {
+    color: #ED325F;
+}
+.titulos-destacado-amarillo {
+    color: #FFF27F;
+}
+.titulos-destacado-blanco {
+    color: #FFFFFF;
+}
+.parrafo-general-texto-blanco{
+    width: 592px;
+    color: #FFFFFF;
+}
+.parrafo-general-texto-negro{
+    width: 592px;
+    color: #212121;
+}
+/* elementos hero */
+.hero{
+    color:#FFFFFF ;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 183px;
+    padding-bottom: 183px;
+    background-image: url(img/slider\ inicio\ ok.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.textos-hero{ /* esta ok esto? quería darle una diferencia entre el texto y el botón */
+    margin: 0;
+    padding-bottom: 32px;
+}
+.boton-hero{
+    background-color: #ED325F;
+    font-size: 20px;
+    padding-left: 16px ;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 24px;
+    border-color: #ED325F;
+    color:#FFFFFF
+}
+/* elementos proceso de diseño */
+.proceso-de-diseño{
+    background-color: #F8F8F8;
+    margin: 0px;
+    padding-right: 260px;
+    padding-left: 120px;
+    background-image: url(img/proceso-de-diseño-background.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px
+}
+.titulos-proceso-de-diseño {
+    font-weight: 400;
+    display: flex;
+    gap: 8px;
+    justify-content: left;
+}
+
+/* elementos mis-proyectos */
+.mis-proyectos{
+    background-color: #25086C;
+    color: #FFFFFF;
+    padding-right: 180px;
+    padding-left: 120px;
+    background-image: url(img/mis-proyectos-background.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px
+}
+/* elementos sobre-mi */
+.sobre-mi{
+    background-color: #32AA9D;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-right: 120px;
+    padding-left: 120px;
+    background-image: url(img/background-sobre-mi.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px
+}
+/* elementos formulario */
+.formulario{
+    background-color: #7A77D8;
+    padding-right: 120px;
+    padding-left: 120px;
+    background-image: url(img/background-formulario.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 545px
+}
+.redes-formulario {
+    display: flex;
+    gap: 16px;
+    margin-top:80px;
+}
+.label {
+    font-size: 12px;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.input-nombre-apellido {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    gap: 16px;
+}
+.input-mensaje {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    gap: 16px;
+}
+.input[type="text"] {
+    width: 100%;
+    padding: 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #F8F8F8;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    height: 48px;
+}
+.boton-submit{
+    background-color: #25086C;
+    font-size: 20px;
+    padding-left: 16px ;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 24px;
+    border-color: #25086C;
+    color:#FFFFFF
+}
+/* elementos foter */
+.footer {
+    background-color: #212121;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 48px;
+    padding-block-end: 48px;
+    background-image: url(img/background-footer.svg);
+    background-size: cover;
+    text-align: center;
+}
+
+
